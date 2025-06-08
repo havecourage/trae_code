@@ -150,7 +150,7 @@ void drawBoard() {
     int starPoints[6][2] = {
         {3, 3}, {3, BOARD_SIZE - 4}, 
         {BOARD_SIZE - 4, 3}, {BOARD_SIZE - 4, BOARD_SIZE - 4},
-        {3, (BOARD_SIZE - 1) / 2}, {BOARD_SIZE - 4, (BOARD_SIZE - 1) / 2},
+        {3, (BOARD_SIZE - 1) / 2}, {BOARD_SIZE - 4, (BOARD_SIZE - 1) / 2}
     };
     
     for (int i = 0; i < 6; i++) {
